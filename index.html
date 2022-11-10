@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <title>Team Grit ORM and Screenshot </title>
+</head>
+<body>
+        <h1>DEFINING A MODEL OF TEAM GRIT API </h1>
+
+        <h1>WITH ORM SCREENSHOTS</h1>
+
+        <h3>MONGOOSE IS THE ORM TO OUR DATABASE MONGODB</h3>
+
+        <p> A Mongoose model is a wrapper on the Mongoose schema. 
+            A Mongoose schema defines the structure of the document, default values,
+            validators, etc., whereas a Mongoose model provides an interface to the
+            database for creating, querying, updating, deleting records, etc. Creating a
+            Mongoose model comprises primarily of three parts:
+        </p>
+
+
+        <h3>1. Referencing Mongoose</h3>
+
+        <p>We have already done this by using the require() function.</p>
+
+
+        <h3>2. Defining the Schema</h3>
+
+        <p>Mongoose writes database collections in the form of schemas. Schemas
+            function as templates or parameters for data sets, giving a collection more
+             structure, organization, and readability before moving the information
+             between the frontend and backend. For defining a Schema, we must first
+             load schema property which is present in mongoose. Then we can define
+             the attributes.
+            </p> <br>
+
+        <p>
+            In the context of our Grammartical Error app, the schemas that we need
+            is user schema which will store information about users i.e.
+            their firstname, lastname, email, password and voiceNote.
+        </p>
+
+        <div style="margin: 4rem;">
+        <img src="/img/1img.png" alt="" srcset="" style="width: 60%; height: 70%;">
+        </div> <br>
+
+
+        <h3>3. Implementing the controller</h3>
+
+        <p>Where all the functionalities takes place Such as:
+            Text Inputs from the user via the request body fron the frontend
+            Voice Messages from the user via the request body fron the frontend
+            Text resposnse  from the BOt via fron the backend
+            Voice response from the BOt via fron the backend
+        </p>
+
+        <div style="margin: 1rem;">
+            <img src="/img/signup.png" alt="" srcset="" style="width: 60%; height: 70%;">
+        </div> <br>
+        <div style="margin: 1rem;">
+            <img src="/img/signin.png" alt="" srcset="" style="width: 60%; height: 70%;">
+        </div> <br>
+        <div style="margin: 1rem;">
+            <img src="/img/convo.png" alt="" srcset="" style="width: 60%; height: 70%;">
+        </div> <br>
+
+        <h3>4. Implementing the routes to access the api</h3>
+
+        <p> Where the routes can be accessed via either a post or get request</p>
+
+        <div style="margin: 4rem;">
+            <img src="/img/route.png" alt="" srcset="" style="width: 60%; height: 70%;">
+        </div> <br>
+
+        <h3>5. The Application model for read and write access to the database</h3>
+        
+        <p>Where all the access of to the database takes place: </p>
+        
+        <div style="margin: 4rem;">
+            <img src="/img/model.png" alt="" srcset="" style="width: 60%; height: 70%;">
+        </div> <br>
+        
+
+        <h3>6. Connecting to database and home route</h3>
+        <p>Basically to begin the testing and degugging</p>
+
+        <div style="margin: 0.5rem;">
+            <img src="/img/homw1.png" alt="" srcset="" style="width: 60%; height: 70%;">
+        </div> <br>
+
+        <div style="margin: 0.5rem;">
+            <img src="/img/ho.png" alt="" srcset="" style="width: 60%; height: 70%;">
+        </div> <br>
+        
+</body>
+</html>
